@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Chief mogul Bible",
+        "tab": "Chief mogul bible",
         "groups": [
           {
             "group": "Get Started",
@@ -22,14 +22,16 @@
             ]
           },
           {
-            "group": "Chief mogul Bible",
+            "group": "Grow your club",
             "pages": [
-              "chief-mogul-bible/introduction",
-              "chief-mogul-bible/getting-started",
-              "chief-mogul-bible/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "grown-your-club/find-your-members",
+              "grown-your-club/onboard-new-members",
+              "grown-your-club/boost-engagement",
+              "grown-your-club/content-strategy",
+              "grown-your-club/align-incentives",
+              "grown-your-club/measuring-success",
+              "grown-your-club/tips-and-tricks",
+              "grown-your-club/resources-and-support
             ]
           }
         ]
