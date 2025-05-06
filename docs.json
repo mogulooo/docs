@@ -22,11 +22,11 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Chief mogul Bible",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
+              "chief-mogul-bible/introduction",
+              "chief-mogul-bible/getting-started",
+              "chief-mogul-bible/images",
               "essentials/settings",
               "essentials/navigation",
               "essentials/reusable-snippets"
