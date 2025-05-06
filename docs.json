@@ -11,14 +11,14 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Chief mogul Bible",
         "groups": [
           {
             "group": "Get Started",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "welcome",
+              "initial-setup",
+              "intro-to-clubs"
             ]
           },
           {
