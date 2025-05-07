@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "mogul Docs",
+  "name": "mogul",
   "colors": {
     "primary": "#338E4A",
     "light": "#07C983",
