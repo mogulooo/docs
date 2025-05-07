@@ -6,6 +6,9 @@
   text-transform: uppercase; /* Optional: if you want all caps */
   letter-spacing: 0.05em; /* Optional: for slightly spaced letters */
   color: #338E4A; /* Replace with your desired color */
+   font-size: 0.875rem; /* Smaller size than headers */
+  margin-bottom: 0.25rem; /* Space between eyebrow and heading */
+  line-height: 1.2;
 }
 
 /* Ensure the custom font is available */
