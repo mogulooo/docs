@@ -1,25 +1,3 @@
-/* Target the eyebrow elements */
-.eyebrow {
-  font-family: 'AreaNormal-Black', sans-serif;
-  font-weight: 700;
-  /* Add any additional styling you want for the eyebrows */
-  text-transform: uppercase; /* Optional: if you want all caps */
-  letter-spacing: 0.05em; /* Optional: for slightly spaced letters */
-  color: #338E4A; /* Replace with your desired color */
-   font-size: 0.875rem; /* Smaller size than headers */
-  margin-bottom: 0.25rem; /* Space between eyebrow and heading */
-  line-height: 1.2;
-}
-
-/* Ensure the custom font is available */
-@font-face {
-  font-family: 'AreaNormal-Black';
-  src: url('https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Black.woff2') "format": "woff2";
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
 /* Base font family declaration for the entire site */
 body {
   font-family: 'AreaNormal', sans-serif;
@@ -79,27 +57,8 @@ strong em, em strong, b i, i b {
   font-style: italic;
 }
 
-/* Style specific elements that might need the bold font */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;
-}
-
 /* Style for eyebrows specifically */
 .eyebrow {
   font-weight: 700;
   /* Add any additional eyebrow-specific styling */
-}
-
-/* Additional selectors to target Mintlify's WYSIWYG editor elements */
-[data-slate-node="element"] [data-slate-bold="true"] {
-  font-weight: 700;
-}
-
-[data-slate-node="element"] [data-slate-italic="true"] {
-  font-style: italic;
-}
-
-[data-slate-node="element"] [data-slate-bold="true"][data-slate-italic="true"] {
-  font-weight: 700;
-  font-style: italic;
 }
