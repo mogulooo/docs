@@ -93,13 +93,13 @@
   },
   "logo": {
     "light": "/logo/light_mogul.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark_dark.svg"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@mogul.club"
       }
     ],
     "primary": {
