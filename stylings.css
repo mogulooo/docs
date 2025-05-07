@@ -1,6 +1,6 @@
 /* Target the eyebrow elements */
 .eyebrow {
-  font-family: 'AreaNormal-Bold', sans-serif;
+  font-family: 'AreaNormal-Black', sans-serif;
   font-weight: 700;
   /* Add any additional styling you want for the eyebrows */
   text-transform: uppercase; /* Optional: if you want all caps */
@@ -13,8 +13,8 @@
 
 /* Ensure the custom font is available */
 @font-face {
-  font-family: 'AreaNormal-Bold';
-  src: url('https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Regular.woff2') format('woff2');
+  font-family: 'AreaNormal-Black';
+  src: url('https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Black.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
