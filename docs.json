@@ -9,7 +9,7 @@
   },
   "fonts": {
     "family": "area",
-    "weight": 400,
+    "weight": 700,
     "source": "https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Regular.woff",
     "format": "woff"
   },
