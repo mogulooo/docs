@@ -8,10 +8,18 @@
     "dark": "#15803D"
   },
   "fonts": {
+    "heading":{ 
+    "family": "AreaNormal-Bold",
+    "weight": 700,
+    "source": "https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Regular.woff2",
+    "format": "woff2"
+    },
+     "body":{ 
     "family": "AreaNormal-Regular",
     "weight": 400,
     "source": "https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Regular.woff2",
     "format": "woff2"
+    }
   },
   "favicon": "/favicon.svg",
   "navigation": {
