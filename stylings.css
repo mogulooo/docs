@@ -20,7 +20,13 @@
   font-display: swap;
 }
 
-/* Base font setup */
+/* Base font family declaration for the entire site */
+body {
+  font-family: 'AreaNormal', sans-serif;
+}
+
+/* Font face declarations for all variants */
+/* Regular font - weight 500 */
 @font-face {
   font-family: 'AreaNormal';
   src: url('https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Regular.woff2') format('woff2');
@@ -29,17 +35,71 @@
   font-display: swap;
 }
 
-/* Bold font setup - points to your bold font file */
+/* Regular Italic font - weight 500 */
 @font-face {
   font-family: 'AreaNormal';
-  src: url('https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-black.woff2') format('woff2');
-  font-weight: 900;
+  src: url('https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-RegularItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Bold font - weight 700 */
+@font-face {
+  font-family: 'AreaNormal';
+  src: url('https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Bold.woff2') format('woff2');
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
-/* Ensure strong elements (created from **text** in Markdown) use the bold font */
-strong {
-  font-family: 'AreaNormal', sans-serif;
-  font-weight: 900;
+/* Bold Italic font */
+@font-face {
+  font-family: 'AreaNormal';
+  src: url('https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-BlackItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Make sure strong elements (bold text) use the correct font weight */
+strong, b {
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Make sure italic elements use the correct font style */
+em, i {
+  font-style: italic;
+}
+
+/* Make sure both bold and italic elements use the correct font */
+strong em, em strong, b i, i b {
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Style specific elements that might need the bold font */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+/* Style for eyebrows specifically */
+.eyebrow {
+  font-weight: 700;
+  /* Add any additional eyebrow-specific styling */
+}
+
+/* Additional selectors to target Mintlify's WYSIWYG editor elements */
+[data-slate-node="element"] [data-slate-bold="true"] {
+  font-weight: 700;
+}
+
+[data-slate-node="element"] [data-slate-italic="true"] {
+  font-style: italic;
+}
+
+[data-slate-node="element"] [data-slate-bold="true"][data-slate-italic="true"] {
+  font-weight: 700;
+  font-style: italic;
 }
