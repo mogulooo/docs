@@ -9,7 +9,7 @@
   },
   "fonts": {
     "body": {
-      "family": "AreaNormal",
+      "family": "AreaNormal-Regular",
       "weights": [
         {
           "weight": 500,
@@ -38,7 +38,7 @@
       ]
     },
     "heading": {
-      "family": "AreaNormal",
+      "family": "AreaNormal-Bold",
       "weight": 700,
       "source": "https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Black.woff2",
       "format": "woff2"
