@@ -14,7 +14,7 @@
 /* Ensure the custom font is available */
 @font-face {
   font-family: 'AreaNormal-Black';
-  src: url('https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Black.woff2') format('woff2');
+  src: url('https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Black.woff2') "format": "woff2";
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -23,7 +23,7 @@
 @font-face {
   font-family: 'AreaNormal';
   src: url('https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Regular.woff2') format('woff2');
-  font-weight: 400; /* or normal */
+  font-weight: 500; /* or normal */
   font-style: normal;
   font-display: swap;
 }
