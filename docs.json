@@ -104,15 +104,14 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Go to properties",
+      "href": "https://app.mogul.club/properties"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/mogul__club",
+      "linkedin": "https://linkedin.com/company/mogul-club"
     }
   }
 }
