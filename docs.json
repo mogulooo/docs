@@ -24,6 +24,7 @@
           {
             "group": "Grow your club",
             "pages": [
+              "grow-your-club/best-practices",
               "grow-your-club/find-your-members",
               "grow-your-club/onboard-new-members",
               "grow-your-club/boost-engagement",
