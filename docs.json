@@ -7,6 +7,12 @@
     "light": "#e1efed",
     "dark": "#15803D"
   },
+  "fonts": {
+    "family": "area",
+    "weight": 400,
+    "source": "https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Regular.woff",
+    "format": "woff"
+  },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
