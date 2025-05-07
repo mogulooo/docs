@@ -1,9 +1,9 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "mogul Docs",
   "colors": {
-    "primary": "#16A34A",
+    "primary": "#338E4A",
     "light": "#07C983",
     "dark": "#15803D"
   },
@@ -24,15 +24,14 @@
           {
             "group": "Grow your club",
             "pages": [
-              "grow-your-club/best-practices",
-              "grow-your-club/find-your-members",
-              "grow-your-club/onboard-new-members",
-              "grow-your-club/boost-engagement",
-              "grow-your-club/content-strategy",
-              "grow-your-club/align-incentives",
-              "grow-your-club/measuring-success",
-              "grow-your-club/tips-and-tricks",
-              "grow-your-club/resources-and-support"
+              "grown-your-club/find-your-members",
+              "grown-your-club/onboard-new-members",
+              "grown-your-club/boost-engagement",
+              "grown-your-club/content-strategy",
+              "grown-your-club/align-incentives",
+              "grown-your-club/measuring-success",
+              "grown-your-club/tips-and-tricks",
+              "grown-your-club/resources-and-support
             ]
           }
         ]
