@@ -19,3 +19,34 @@
   font-style: normal;
   font-display: swap;
 }
+
+/* Base font setup */
+@font-face {
+  font-family: 'AreaNormal';
+  src: url('https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold font setup - points to your bold font file */
+@font-face {
+  font-family: 'AreaNormal';
+  src: url('https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Ensure strong elements (created from **text** in Markdown) use the bold font */
+strong {
+  font-family: 'AreaNormal', sans-serif;
+  font-weight: 700;
+}
+
+/* Specific styling for eyebrows if needed */
+.eyebrow {
+  font-family: 'AreaNormal', sans-serif;
+  font-weight: 700;
+  /* Any other eyebrow styling */
+}
