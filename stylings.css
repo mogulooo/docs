@@ -33,7 +33,7 @@
 @font-face {
   font-family: 'AreaNormal';
   src: url('https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-black.woff2') format('woff2');
-  font-weight: 700;
+  font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
@@ -41,5 +41,5 @@
 /* Ensure strong elements (created from **text** in Markdown) use the bold font */
 strong {
   font-family: 'AreaNormal', sans-serif;
-  font-weight: 700;
+  font-weight: 900;
 }
