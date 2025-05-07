@@ -16,7 +16,7 @@
     },
      "body":{ 
     "family": "AreaNormal-Regular",
-    "weight": 400,
+    "weight": 500,
     "source": "https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Regular.woff2",
     "format": "woff2"
     }
