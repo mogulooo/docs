@@ -33,7 +33,7 @@
           {
             "group": "Platform",
             "pages": [
-              "faq/platform/overview",
+              "faq/platform/overview-platform",
               "faq/platform/what-is-mogul",
               "faq/platform/key-features",
               "faq/platform/getting-started",
