@@ -11,30 +11,10 @@
     "body": {
       "family": "AreaNormal-Regular",
       "weights": [
-        {
-          "weight": 500,
-          "style": "normal",
-          "source": "https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Regular.woff2",
-          "format": "woff2"
-        },
-        {
-          "weight": 500,
-          "style": "italic",
-          "source": "https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-RegularItalic.woff2",
-          "format": "woff2"
-        },
-        {
-          "weight": 700,
-          "style": "normal",
-          "source": "https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Black.woff2",
-          "format": "woff2"
-        },
-        {
-          "weight": 700,
-          "style": "italic",
-          "source": "https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-BlackItalic.woff2",
-          "format": "woff2"
-        }
+        { "weight": 500, "style": "normal", "source": "https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Regular.woff2", "format": "woff2" },
+        { "weight": 500, "style": "italic", "source": "https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-RegularItalic.woff2", "format": "woff2" },
+        { "weight": 700, "style": "normal", "source": "https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Black.woff2", "format": "woff2" },
+        { "weight": 700, "style": "italic", "source": "https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-BlackItalic.woff2", "format": "woff2" }
       ]
     },
     "heading": {
@@ -47,6 +27,46 @@
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
+      {
+        "tab": "FAQ",
+        "groups": [
+          {
+            "group": "Platform",
+            "pages": [
+              "Platform/index",
+              "Platform/what-is-mogul",
+              "Platform/key-features",
+              "Platform/getting-started",
+              "Platform/investing-step-by-step",
+              "Platform/after-you-invest",
+              "Platform/dashboard-portfolio"
+            ]
+          },
+          {
+            "group": "Real Estate",
+            "pages": [
+              "Real-Estate/index",
+              "Real-Estate/property-selection",
+              "Real-Estate/governance-voting",
+              "Real-Estate/mogul-vs-reits",
+              "Real-Estate/operating-strategies",
+              "Real-Estate/appreciation-tax-benefits",
+              "Real-Estate/returns-exits-reserves"
+            ]
+          },
+          {
+            "group": "mogul Clubs",
+            "pages": [
+              "mogul-Clubs/Clubs",           
+              "mogul-Clubs/understanding-mogul-clubs",
+              "mogul-Clubs/rewards-and-mechanics",
+              "mogul-Clubs/roles-and-participation",
+              "mogul-Clubs/joining-and-creating",
+              "mogul-Clubs/governance-and-moderation"
+            ]
+          }
+        ]
+      },
       {
         "tab": "Chief mogul bible",
         "groups": [
@@ -97,34 +117,19 @@
     ],
     "global": {
       "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
+        { "anchor": "Documentation", "href": "https://mintlify.com/docs", "icon": "book-open-cover" },
+        { "anchor": "Community",     "href": "https://mintlify.com/community", "icon": "slack" },
+        { "anchor": "Blog",          "href": "https://mintlify.com/blog", "icon": "newspaper" }
       ]
     }
   },
   "logo": {
     "light": "/logo/light_mogul.svg",
-    "dark": "/logo/dark_mogul.svg"
+    "dark":  "/logo/dark_mogul.svg"
   },
   "navbar": {
     "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@mogul.club"
-      }
+      { "label": "Support", "href": "mailto:support@mogul.club" }
     ],
     "primary": {
       "type": "button",
@@ -134,7 +139,7 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mogul__club",
+      "x":        "https://x.com/mogul__club",
       "linkedin": "https://linkedin.com/company/mogul-club"
     }
   }
