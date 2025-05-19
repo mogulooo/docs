@@ -7,15 +7,12 @@
     "light": "#e1efed",
     "dark": "#15803D"
   },
-  "fonts": {
+    "fonts": {
     "body": {
       "family": "AreaNormal-Regular",
-      "weights": [
-        { "weight": 500, "style": "normal", "source": "https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Regular.woff2", "format": "woff2" },
-        { "weight": 500, "style": "italic", "source": "https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-RegularItalic.woff2", "format": "woff2" },
-        { "weight": 700, "style": "normal", "source": "https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Black.woff2", "format": "woff2" },
-        { "weight": 700, "style": "italic", "source": "https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-BlackItalic.woff2", "format": "woff2" }
-      ]
+      "weight": 550,
+      "source": "https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Regular.woff2",
+      "format": "woff2"
     },
     "heading": {
       "family": "AreaNormal-Bold",
