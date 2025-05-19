@@ -3,19 +3,31 @@ title: "Key Features"
 description: "An overview of our platform's key features"
 ---
 
-<details>
-  <summary style={{ cursor: 'pointer', fontSize: '1.1rem' }}>
-    Key Platform Features ▼
-  </summary>
+import React, { useState } from 'react';
 
-  <ul style={{ listStyle: 'none', paddingLeft: 0, marginTop: '0.5rem' }}>
-    <li><a href="/property-marketplace">Property Marketplace</a></li>
-    <li><a href="/investor-dashboard">Investor Dashboard</a></li>
-    <li><a href="/secure-investment-flow">Secure Investment Flow</a></li>
-    <li><a href="/account-management">Account Management</a></li>
-    <li><a href="/mogul-clubs">mogul Clubs</a></li>
-    <li><a href="/whats-new-feed">What’s New Feed</a></li>
-    <li><a href="/dedicated-support">Dedicated Support</a></li>
-    <li><a href="/calculator-analysis-tools">Calculator/Analysis Tools</a></li>
-  </ul>
-</details>
+export const KeyFeaturesDropdown = () => {
+  const [open, setOpen] = useState(false);
+  return (
+    <div>
+      <div
+        onClick={() => setOpen(!open)}
+        style={{ cursor: 'pointer', fontSize: '1.1rem', userSelect: 'none' }}
+      >
+        Key Platform Features {open ? '▾' : '▸'}
+      </div>
+      {open && (
+        <ul style={{ listStyle: 'none', paddingLeft: 0, marginTop: '0.5rem' }}>
+          <li><a href="/property-marketplace">Property Marketplace</a></li>
+          <li><a href="/dashboard-portfolio">Investor Dashboard</a></li>
+          <li><a href="/secure-investment-flow">Secure Investment Flow</a></li>
+          <li><a href="/clubs">mogul Clubs</a></li>
+          <li><a href="/whats-new-feed">What’s New Feed</a></li>
+          <li><a href="/dedicated-support">Dedicated Support</a></li>
+          <li><a href="/calculator-tool">Calculator Tool</a></li>
+        </ul>
+      )}
+    </div>
+  )
+};
+
+<KeyFeaturesDropdown />
