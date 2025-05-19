@@ -117,9 +117,9 @@
     ],
     "global": {
       "anchors": [
-        { "anchor": "Documentation", "href": "https://mintlify.com/docs", "icon": "book-open-cover" },
-        { "anchor": "Community",     "href": "https://mintlify.com/community", "icon": "slack" },
-        { "anchor": "Blog",          "href": "https://mintlify.com/blog", "icon": "newspaper" }
+        { "anchor": "Properties", "href": "https://app.mogul.club/properties", "icon": "book-open-cover" },
+        { "anchor": "Clubs",     "href": "https://app.mogul.club/clubs", "icon": "slack" },
+        { "anchor": "Calculator",          "href": "https://app.mogul.club/underwritings", "icon": "newspaper" }
       ]
     }
   },
