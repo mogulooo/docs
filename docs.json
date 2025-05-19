@@ -33,13 +33,13 @@
           {
             "group": "Platform",
             "pages": [
-              "platform/index",
-              "platform/what-is-mogul",
-              "platform/key-features",
-              "platform/getting-started",
-              "platform/investing-step-by-step",
-              "platform/after-you-invest",
-              "platform/dashboard-portfolio"
+              "faqs/platform/index",
+              "faqs/platform/what-is-mogul",
+              "faqs/platform/key-features",
+              "faqs/platform/getting-started",
+              "faqs/platform/investing-step-by-step",
+              "faqs/platform/after-you-invest",
+              "faqs/platform/dashboard-portfolio"
             ]
           },
           {
