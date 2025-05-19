@@ -45,24 +45,24 @@
           {
             "group": "Real Estate",
             "pages": [
-              "Real-Estate/index",
-              "Real-Estate/property-selection",
-              "Real-Estate/governance-voting",
-              "Real-Estate/mogul-vs-reits",
-              "Real-Estate/operating-strategies",
-              "Real-Estate/appreciation-tax-benefits",
-              "Real-Estate/returns-exits-reserves"
+              "faq/real-estate/index",
+              "faq/real-estate/property-selection",
+              "faq/real-estate/governance-voting",
+              "faq/real-estate/mogul-vs-reits",
+              "faq/real-estate/operating-strategies",
+              "faq/real-estate/appreciation-tax-benefits",
+              "faq/real-estate/returns-exits-reserves"
             ]
           },
           {
             "group": "mogul Clubs",
             "pages": [
-              "mogul-Clubs/Clubs",           
-              "mogul-Clubs/understanding-mogul-clubs",
-              "mogul-Clubs/rewards-and-mechanics",
-              "mogul-Clubs/roles-and-participation",
-              "mogul-Clubs/joining-and-creating",
-              "mogul-Clubs/governance-and-moderation"
+              "faq/mogul-clubs/clubs",           
+              "faq/mogul-clubs/understanding-mogul-clubs",
+              "faq/mogul-clubs/rewards-and-mechanics",
+              "faq/mogul-clubs/roles-and-participation",
+              "faq/mogul-clubs/joining-and-creating",
+              "faq/mogul-clubs/governance-and-moderation"
             ]
           }
         ]
