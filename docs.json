@@ -60,6 +60,19 @@
               "faq/mogul-clubs/joining-and-creating",
               "faq/mogul-clubs/governance-and-moderation"
             ]
+          },
+          {
+            "dropdown": "Key Features",
+            "pages": [
+              "faq/platform/overview",
+              "faq/platform/property-marketplace",
+              "faq/platform/dashboard-portfolio",
+              "faq/platform/secure-investment-flow",
+              "faq/platform/clubs",
+              "faq/platform/whats-new-feed",
+              "faq/platform/dedicated-support",
+              "faq/platform/calculator-tool"
+            ]
           }
         ]
       },
