@@ -7,20 +7,6 @@
     "light": "#e1efed",
     "dark": "#15803D"
   },
-  "fonts": {
-    "body": {
-      "family": "AreaNormal-Regular",
-      "weight": 550,
-      "source": "https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Regular.woff2",
-      "format": "woff2"
-    },
-    "heading": {
-      "family": "AreaNormal-Bold",
-      "weight": 700,
-      "source": "https://mintlify-fonts.s3.us-east-1.amazonaws.com/AreaNormal-Black.woff2",
-      "format": "woff2"
-    }
-  },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
@@ -78,7 +64,7 @@
         ]
       },
       {
-        "tab": "Chief mogul bible",
+        "tab": "Chief mogul Bible",
         "groups": [
           {
             "group": "Get Started",
