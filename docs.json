@@ -32,7 +32,14 @@
             "pages": [
               "faq/platform/overview-platform",
               "faq/platform/what-is-mogul",
-              "faq/platform/key-features",
+              {
+                "dropdown": "Key Features",
+                "pages": [
+                  "faq/platform/overview",
+                  "faq/platform/property-marketplace"
+                ] 
+                
+              },
               "faq/platform/getting-started",
               "faq/platform/investing-step-by-step",
               "faq/platform/after-you-invest",
