@@ -60,11 +60,8 @@
               "faq/mogul-clubs/joining-and-creating",
               "faq/mogul-clubs/governance-and-moderation"
             ]
-          },
-                        {
-                "dropdown": "Blog",
-                "href": "https://external-link.com/blog"
-              }
+          }
+
         ]
       },
       {
@@ -90,7 +87,11 @@
               "grow-your-club/tips-and-tricks",
               "grow-your-club/resources-and-support"
             ]
-          }
+          },
+                                  {
+                "dropdown": "Blog",
+                "href": "https://external-link.com/blog"
+              }
         ]
       }
       
