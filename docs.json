@@ -32,6 +32,26 @@
             "pages": [
               "faq/platform/overview-platform",
               "faq/platform/what-is-mogul",
+              {
+                "dropdown": "Key Features",
+                "icon": "history",
+                "description": "Updates and changes",
+                "groups": [
+                  {
+                    "group": "Key Features",
+                    "pages": [
+                      "faq/platform/overview",
+                      "faq/platform/property-marketplace",
+                      "faq/platform/dashboard-portfolio",
+                      "faq/platform/secure-investment-flow",
+                      "faq/platform/clubs",
+                      "faq/platform/whats-new-feed",
+                      "faq/platform/dedicated-support",
+                      "faq/platform/calculator-tool"
+                    ]
+                  }
+                ]
+              },
               "faq/platform/getting-started",
               "faq/platform/investing-step-by-step",
               "faq/platform/after-you-invest",
