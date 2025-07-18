@@ -119,4 +119,9 @@
       "linkedin": "https://linkedin.com/company/mogul-club"
     }
   }
+  "integrations": {
+    "segment": {
+        "key": "l0Twdi8SRFuLR3vRvvCrWCemTWVjjxkz"
+    }
+  }
 }
